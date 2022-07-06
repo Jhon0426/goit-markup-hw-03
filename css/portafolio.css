@@ -6,44 +6,51 @@ body {
     font-family: roboto;
 }
 
+/*main start*/
 main {
     margin: 0 auto;
 }
+/*main ends*/
 
 /*header start*/
-header {
-    border-bottom: 1px solid #ececec;
-    margin: 0 auto;
+#menu {
+    margin: 0 100px;
 }
 
-header a {
+#menu nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu a {
     text-decoration: none;
     color: #212121;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
-header a:active {
+#menu a:active {
     color: #2196F3;
 }
 
-header .menu {
-    font-weight: bolder;
-}
-
-header .contacto {
-    text-align: right;
-}
-
-header .contacto a{
+#menu .contacto a {
     color: #757575;
-    text-decoration: none;
 }
 
-header .logo {
+#menu .logo {
     font-family: raleway;
     font-size: 26px;
     color: #2196F3;
     margin-right: 40px;
+}
+
+#menu .menu {
+    text-align: left;
+    font-weight: bolder;
+}
+
+#menu .contacto {
+    text-align: right;
 }
 
 /*header ends*/
