@@ -81,6 +81,8 @@ main {
 /*cualidades starts*/
 #cualidades {
     margin: 0 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: roboto;
     font-size: 14px;
     display: flex;
@@ -112,12 +114,14 @@ main {
 
 #empresa {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #empresa h2 {
     font-size: 36px;
     color: #212121;
     font-family: roboto;
+    padding-bottom: 25px;
 }
 
 #empresa img {
@@ -137,6 +141,7 @@ main {
     font-size: 36px;
     color: #212121;
     font-family: roboto;
+    padding-top: 80px;
 }
 
 #equipo h3 {
@@ -166,29 +171,29 @@ main {
 
 /*footer starts*/
 
-footer {
+#pie-pagina {
     background-color: #2F303A;
     margin-top: 30px;
 }
 
-footer a {
+#pie-pagina .contacto a {
     text-decoration: none;
     color: #757575;
 }
 
-footer .logo {
+#pie-pagina .logo a {
     font-family: raleway;
     font-size: 26px;
     color: #2196F3;
+    text-decoration: none;
 }
 
-footer p {
+#pie-pagina .ubicacion p {
     color: #fff;
     font-size: 14px;
     font-family: roboto;
 }
 
-/*footer ends*/
 #pie-pagina {
     height: 252px;
 }
@@ -198,4 +203,5 @@ footer p {
     padding-left: 100px;
     padding-bottom: 60px;
 }
+
 /*footer ends*/

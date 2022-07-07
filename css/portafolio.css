@@ -120,27 +120,35 @@ main {
 
 /*Footer*/
 
-footer {
+#pie-pagina {
     background-color: #2F303A;
     margin-top: 30px;
+    height: 252px;
 }
 
-footer a {
+#pie-pagina .contacto a {
     text-decoration: none;
     color: #757575;
 }
 
-footer .logo {
+#pie-pagina .logo a {
     font-family: raleway;
     font-size: 26px;
     color: #2196F3;
+    text-decoration: none;
 }
 
-footer p {
+#pie-pagina .ubicacion p {
     color: #fff;
     font-size: 14px;
     font-family: roboto;
     text-align: left;
+}
+
+#pie-pagina .final {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 60px;
 }
 
 /*Footer*/
