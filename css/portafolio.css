@@ -4,17 +4,20 @@
 body {
     background-color: #fff;
     font-family: roboto;
+    margin: 0;
 }
 
 /*main start*/
 main {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0 100px;
 }
 /*main ends*/
 
 /*header start*/
 #menu {
-    margin: 0 100px;
+    margin: 0;
+    padding: 0 100px;
 }
 
 #menu nav {
@@ -26,6 +29,9 @@ main {
 #menu a {
     text-decoration: none;
     color: #212121;
+}
+
+#menu a:not(:last-child) {
     margin-right: 40px;
 }
 
@@ -87,7 +93,10 @@ main {
 /*imagenes*/
 
 #imagenes {
-    margin: 0 100px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #imagenes img {
@@ -99,7 +108,7 @@ main {
     display: inline-block;
     width: 370px;
     height: 404px;
-    margin-right: 59px;
+    margin-right: 0px;
     margin-left: px;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
